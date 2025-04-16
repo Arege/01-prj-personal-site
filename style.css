@@ -1,1 +1,128 @@
-/* Add you CSS here */
+/* General styles for the entire page */
+body {
+  font-family: Arial, sans-serif; /* Use a clean, readable font */
+  margin: 10px; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  line-height: 1.6; /* Improve text readability */
+  color: white; /* Default text color is white */
+  background-color: black; /* Default background color is black */
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: black; /* Background color for the nav bar */
+  padding: 10px 0; /* Add some padding for spacing */
+  text-align: center; /* Center the navigation items */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav li {
+  display: inline-block; /* Display list items side by side */
+  margin: 0 15px; /* Add spacing between items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set link text color to white */
+  font-weight: bold; /* Make the text bold */
+}
+
+nav a:hover {
+  color: rgb(25, 170, 9); /* Change color on hover for better interactivity */
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center; /* Center-align text */
+  background-repeat: no-repeat;
+  width: 100%; /* Full width */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  padding: 50px 20px; /* Add space around the content */
+  height: 50%;
+  background-attachment: fixed;
+  background-image: url('img/hero-bg.jpg'); /* Background image */
+}
+
+#profilePic {
+  width: 150px; /* Set profile picture width */
+  height: 150px; /* Set profile picture height */
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 20px; /* Space below the image */
+  border: 5px solid white; /* White border around the image */
+}
+
+/* Bio section styles */
+.bio {
+  padding: 20px; /* Add space around the content */
+}
+
+/* Section styles */
+section {
+  text-align: center; /* Center-align text within each section */
+  font-size: 32px;
+}
+
+/* Mission section styles */
+.mission-container {
+  overflow: hidden; /* Clear floats */
+}
+
+.mission-image {
+  float: left; /* Align the image to the left */
+  width: 45%; /* Take up 45% of the container width */
+  margin-right: 5%; /* Add space between the image and text */
+}
+
+.mission-text {
+  float: left; /* Align the text to the left */
+  width: 50%; /* Take up the remaining 50% of the container width */
+  line-height: 1.6; /* Improve text readability */
+}
+
+/* Skills section styles */
+.skills {
+  padding: 20px; /* Add space around the content */
+}
+
+/* Additional styles for headings and lists */
+h1, h2 {
+  color: white; /* Ensure headings are white */
+}
+
+ul {
+  list-style-type: none; /* Use square bullets for lists */
+  padding-left: 20px; /* Indent the list */
+}
+
+li {
+  color: white; /* Ensure list items are white */
+}
+
+/* Skills section styles */
+#skills {
+  padding: 20px; /* Add space around the content */
+  text-align: center; /* Center-align the skills list */
+}
+
+#skills ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+#skills li {
+  display: inline-block; /* Make the list items appear side by side */
+  background-color: #21bdd8; /* Dark background for the pills */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding inside the pills */
+  margin: 5px; /* Add spacing between the pills */
+  border-radius: 25px; /* Make the pills rounded */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+}
