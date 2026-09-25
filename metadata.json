@@ -1,0 +1,8 @@
+{
+  "name": "Ashton Regensberg - Personal Site",
+  "description": "Personal portfolio website for Ashton Regensberg - Web Developer, Freelancer, Educator and UX Enthusiast.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

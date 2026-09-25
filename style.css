@@ -8,9 +8,14 @@ body {
   background-color: black; /* Default background color is black */
 }
 
+/* Header styles */
+header {
+  text-align: center;
+}
+
 /* Navigation bar styles */
 nav {
-  background-color: black; /* Background color for the nav bar */
+  background-color: teal; /* Background color for the nav bar */
   padding: 10px 0; /* Add some padding for spacing */
   text-align: center; /* Center the navigation items */
 }
